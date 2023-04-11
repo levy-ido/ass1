@@ -26,7 +26,7 @@ public class Pow {
      * @return n to the power of x
      */
     public static long powIter(long n, long x) {
-        int res = 1;
+        long res = 1;
         while (x >= 1) {
             res *= n;
             --x;

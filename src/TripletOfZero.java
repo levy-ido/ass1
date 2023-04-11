@@ -1,8 +1,9 @@
 // Ido Levy 318949294
 
 /**
- * This class provides a method for finding a subsequence of length 3 from an array of integers, such that the sum of the
- * elements in the subsequence is equal to 0. It also includes utility methods for sorting arrays and printing the subsequence.
+ * This class provides a method for finding a subsequence of length 3 from an array of integers,
+ * such that the sum of the elements in the subsequence is equal to 0.
+ * It also includes utility methods for sorting arrays and printing the subsequence.
  */
 public class TripletOfZero {
     /**
@@ -20,8 +21,8 @@ public class TripletOfZero {
     }
 
     /**
-     * Returns a subsequence of length 3 from the given array, such that the sum of the elements in the subsequence is equal
-     * to 0, if it exists.
+     * Returns a subsequence of length 3 from the given array,
+     * such that the sum of the elements in the subsequence is equal to 0, if it exists.
      *
      * @param numbers An array of integers.
      * @return An array of length 3 containing the elements that sum to 0, or null if no such subsequence exists.
